@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "7646a460922dece38c5e527fd1d55f6d"
+name = "marketing-app"
+application_url = "https://mask-dt-seasons-african.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "albionbekaj.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products"
+
+[auth]
+redirect_urls = [
+  "https://mask-dt-seasons-african.trycloudflare.com/auth/callback",
+  "https://mask-dt-seasons-african.trycloudflare.com/auth/shopify/callback",
+  "https://mask-dt-seasons-african.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[app_proxy]
+url = "https://mask-dt-seasons-african.trycloudflare.com/extensions/dev-console/app/proxy"
+subpath = "proxytest"
+prefix = "apps"
+
+[pos]
+embedded = false

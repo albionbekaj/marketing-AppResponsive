@@ -1,0 +1,15 @@
+{% assign avg_rating = block.settings.product.metafields.demo.avg_rating.value | round %}
+
+
+
+{% schema %}
+{
+  "name": "remix marketing widget",
+  "target": "section",
+  "settings": [
+    { "type": "product", "id": "product", "label": "product", "autofill": true },
+    { "type": "color", "id": "colour", "label": "Star Colour", "default": "#ff0000" }
+  ]
+}
+{% endschema %}
+
