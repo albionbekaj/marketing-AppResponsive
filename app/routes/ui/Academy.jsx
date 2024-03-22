@@ -11,7 +11,6 @@ function Academy() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
-      {/* #BUG spaxe-y-1 me e ndrru me ni screen o keq */}
       <div className="ml-14 mr-14 flex flex-row flex-wrap sm:flex-nowrap sm:space-x-2 sm:space-y-0 space-y-1 items-center justify-center">
         <img
           src={footerImg1}

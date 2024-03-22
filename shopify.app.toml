@@ -2,7 +2,7 @@
 
 client_id = "7646a460922dece38c5e527fd1d55f6d"
 name = "marketing-app"
-application_url = "https://mask-dt-seasons-african.trycloudflare.com"
+application_url = "https://genetic-concerned-hugh-london.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,16 +16,16 @@ scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://mask-dt-seasons-african.trycloudflare.com/auth/callback",
-  "https://mask-dt-seasons-african.trycloudflare.com/auth/shopify/callback",
-  "https://mask-dt-seasons-african.trycloudflare.com/api/auth/callback"
+  "https://genetic-concerned-hugh-london.trycloudflare.com/auth/callback",
+  "https://genetic-concerned-hugh-london.trycloudflare.com/auth/shopify/callback",
+  "https://genetic-concerned-hugh-london.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
 api_version = "2024-01"
 
 [app_proxy]
-url = "https://mask-dt-seasons-african.trycloudflare.com/extensions/dev-console/app/proxy"
+url = "https://genetic-concerned-hugh-london.trycloudflare.com/extensions/dev-console/app/proxy"
 subpath = "proxytest"
 prefix = "apps"
 

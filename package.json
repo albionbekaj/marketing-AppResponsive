@@ -3,10 +3,10 @@
   "private": true,
   "scripts": {
     "build": "vite build && vite build --ssr",
-    "dev": "shopify app dev",
+    "dev": "concurrently \"npm run dev:css\" \"shopify app dev\"",
     "dev:css": "tailwindcss -i app/tailwind.css -o ./app/styles/tailwind.css -w",
     "config:link": "shopify app config link",
-    "config:push":"shopify app config push",
+    "config:push": "shopify app config push",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
     "config:use": "shopify app config use",
